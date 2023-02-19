@@ -1,0 +1,177 @@
+:root {
+    --main-color : #0085C3;
+   
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;  
+  }
+
+/* small screen */
+@media (min-width: 768px){
+    .container1 {
+        width: 750px;
+    }
+}
+/* meduim */
+@media (min-width: 992px) {
+    .container1 {
+        width: 970px;
+    }
+}
+
+/* Large */
+@media (min-width: 1200px) {
+    .container1 {
+        width: 1170px;
+    }
+}
+
+::selection {
+    color: var(--main-color);
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 100px;
+    /* padding-left: 90px; */
+    margin-right: -100px;
+}
+.container1 img {
+    width: 550px;
+
+    /* height: 500px; */
+}
+
+.mg {
+    padding-left: 100px;
+}
+
+.container1 .text {
+  padding: 70px 40px;
+  text-align: start;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+
+}
+
+.container1 .text h1 {
+    font-size: 24px;
+}
+.container1 p {
+    color: #777;
+    line-height: 1.5;
+}
+
+
+.container1 button {
+    border-radius:34px 34px;
+    padding: 10px 30px;
+    margin-left: 30px;
+    background-color: var(--main-color);
+    color: white;
+    font-size: 15px;
+}
+
+.plagging {
+    height: 100px;
+    position: relative;
+    width: 700px;
+    height: 50px;
+}
+.plagging img {
+  width: 1294px;
+ 
+  
+}
+.plagging h1 {
+    font-size: 30px;
+    position: absolute;
+    color: white;
+    left:40%;
+    top: 80%;
+    transform: translate(35%,100%);
+    
+}
+.plagging :nth-child(3){
+    position: relative;
+    top: -50px;
+    height: 350px;
+}
+
+.title  {
+    position: relative;
+    margin-top: 90vh;
+    margin-bottom: 7vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title p {
+    color: #777;
+    width: 30%;
+    margin: auto;
+    line-height: 1.8;
+ }
+
+ .services{
+    display:flex;
+    justify-content: space-around;
+    text-align: start;
+ }
+ .services img{
+    display: block;
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+ }
+ .services #img2 , #hand , #flech3 , #flech1 { 
+    width: 40px;
+    height: 40px;
+ }
+ #flech2{
+    height: 50px;
+    bottom: 7px;
+}
+ #flech3 , #flech1 , #flech2{
+    position:absolute;
+    right:0;
+ }
+ .element{
+    position: relative;
+    height: 270px;
+    width: 25vw;
+    border-radius: 20px ;
+    box-shadow: 5px 5px 15px #777  ;
+    padding: 0 15px;
+ }
+ .servFlex {
+    display: flex;
+    align-items: center;
+ }
+ .servFlex .text{
+    margin-top: 10px;
+ }
+ .title2{
+    margin-top: 10vh;
+ }
+ .title2 p {
+    color: #777;
+    width: 30%;
+    margin: auto;
+    line-height: 1.8;
+ }
+ .p2 {
+color: #777;
+ }
+ #fin{
+    display: flex;
+ }
+ #fin img{
+    width: 35%;
+ }
