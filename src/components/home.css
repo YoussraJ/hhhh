@@ -171,6 +171,7 @@ color: #777;
  }
  #fin{
     display: flex;
+    padding-top: 20px;
  }
  #fin img{
     width: 35%;

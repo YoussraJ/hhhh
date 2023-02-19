@@ -12,11 +12,6 @@ import flech3 from "../images/flech3.png";
 import girl from "../images/girl.png";
 import fin from "../images/fin.png";
 
-
-
-
-
-
 const Home=()=>{
 return (
     <div>
